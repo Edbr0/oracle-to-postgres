@@ -1,0 +1,4 @@
+#VITE_BASE_URL='https://db-i3m.herokuapp.com'
+#VITE_BASE_URL='http://localhost:3000'
+VITE_BASE_URL='http://179.127.24.212:3009'
+VITE_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.kpKPM8n7Egn8tog2a2qKIVEbsjd-wBpCsNu9pQirwVw

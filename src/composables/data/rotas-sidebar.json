@@ -1,0 +1,75 @@
+[
+    {
+      "path": "#/home/menu",
+      "descricao": "Menu Principal",
+      "icon": "zondicons:menu"
+    },
+    {
+      "path": "#/home/fornecedor",
+      "descricao": "Fornecedores",
+      "icon": "carbon:task-approved",
+      "propriedades": [
+        {
+          "descricao": "Cadastro",
+          "path": "#/home/fornecedor"
+        },
+        {
+          "descricao": "Empresas",
+          "path": "#/home/fornecedor"
+        },
+        {
+          "descricao": "Clientes",
+          "path": "#/home/fornecedor"
+        }
+      ]
+    },
+    {
+      "path": "#/home/cliente",
+      "descricao": "Clientes",
+      "icon": "ion:md-person-add"
+    },
+    {
+      "path": "#/home/colaborador",
+      "descricao": "Colaborador",
+      "icon": "carbon:collaborate"
+    },
+    {
+      "path": "#/home/cargo",
+      "descricao": "Cargos",
+      "icon": "mdi:office-building-cog-outline",
+      "propriedades": [
+        {
+          "descricao": "Cadastro",
+          "path": "#/home/cargo"
+        },
+        {
+          "descricao": "Perfis",
+          "path": "#/home/cargo"
+        },
+        {
+          "descricao": "Autorizações",
+          "path": "#/home/cargo"
+        }
+      ]
+    },
+    {
+      "path": "#/home/rh",
+      "descricao": "RH",
+      "icon": "mdi:hand-coin-outline"
+    },
+    {
+      "path": "#/home",
+      "descricao": "Relatórios",
+      "icon": "carbon:report-data"
+    },
+    {
+      "path": "#/home/usuario",
+      "descricao": "Usuários",
+      "icon": "material-symbols:person-2-outline"
+    },
+    {
+      "path": "#/home",
+      "descricao": "Configurações",
+      "icon": "ion:md-settings"
+    }
+  ]
