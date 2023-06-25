@@ -8,6 +8,6 @@ export default defineComponent({})
 
 <template>
   <header w-full flex items-center justify-center bg-gray-700 border-b border-gray-600>
-    <h2>I3M</h2>
+    <h2>Oracle To Postgres</h2>
   </header>
 </template>
