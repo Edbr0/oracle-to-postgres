@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "postinstall": "esno scripts/prepare.ts",
     "dev": "vite serve --host",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
