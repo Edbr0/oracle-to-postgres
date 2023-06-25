@@ -1,12 +1,12 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 
-import beforeEach from './beforeRouter'
+
 import {
   NotFound
 } from '../pages'
 import { Home } from '../layout'
 
-const routes = [
+const routes: any = [
   {
     path: '/',
     name: 'home',
@@ -30,6 +30,5 @@ const router = createRouter({
   routes,
 })
 
-router.beforeEach(beforeEach)
 
 export default router

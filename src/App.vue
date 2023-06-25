@@ -5,7 +5,7 @@
 
   export default defineComponent({
     setup() {
-      window.$message = useMessage()
+     // window.$ = useMessage()
     },
   })
 </script>

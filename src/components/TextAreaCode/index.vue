@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { defineComponent, ref } from 'vue'
+  import { defineComponent, ref, computed } from 'vue'
   import Prism from 'prismjs';
   import 'prismjs/themes/prism-okaidia.css';
   import 'prismjs/components/prism-sql';

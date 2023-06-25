@@ -1,6 +1,5 @@
 <script lang="ts">
-  import { defineComponent } from 'vue'
-  import { useRouter } from 'vue-router'
+  import { defineComponent, ref } from 'vue'
   import { openAiStore } from '../../store'
   import { format } from 'sql-formatter';
   import TextAreaCode from '../../components/TextAreaCode/index.vue'
@@ -11,7 +10,6 @@
       TextAreaCode
     },
     setup(){
-      const router = useRouter()
 
       const prompt = ref<string>('');
 
@@ -69,7 +67,6 @@
       }
 
       return {
-        router,
         prompt,
         convert,
         response,

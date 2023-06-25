@@ -7,27 +7,8 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    ButtonAtualizar: typeof import('./components/Button/ButtonAtualizar.vue')['default']
-    ButtonAvancar: typeof import('./components/Button/ButtonAvancar.vue')['default']
-    ButtonVoltar: typeof import('./components/Button/ButtonVoltar.vue')['default']
-    CardIcons: typeof import('./components/Cards/CardIcons.vue')['default']
-    CardInfoDash: typeof import('./components/Cards/CardInfoDash.vue')['default']
-    CardNewPerfil: typeof import('./components/Cards/CardNewPerfil.vue')['default']
-    CardPerfil: typeof import('./components/Cards/CardPerfil.vue')['default']
-    DataTable: typeof import('./components/Table/DataTable.vue')['default']
-    EchartInline: typeof import('./components/Echarts/EchartInline.vue')['default']
-    HeaderIcons: typeof import('./components/Icons/HeaderIcons.vue')['default']
-    Icon: typeof import('./components/Icons/Icon.vue')['default']
-    Icons: typeof import('./components/Icons/Icons.vue')['default']
-    Modal: typeof import('./components/Modal/Modal.vue')['default']
-    ModalLateral: typeof import('./components/Modal/ModalLateral.vue')['default']
-    NavbarMobile: typeof import('./components/Navbar/NavbarMobile.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    Sidebar: typeof import('./components/Sidebar/Sidebar.vue')['default']
-    SidebarResponsiva: typeof import('./components/Sidebar/SidebarResponsiva.vue')['default']
     TextAreaCode: typeof import('./components/TextAreaCode/index.vue')['default']
-    Title: typeof import('./components/Title/Title.vue')['default']
-    TituloModulo: typeof import('./components/Title/TituloModulo.vue')['default']
   }
 }
