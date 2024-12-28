@@ -42,3 +42,31 @@ collections-meta.json
 pnpm-lock.yaml
 vite.config.ts.js
 vite.config.ts.timestamp*
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+#vite files
+auto-imports.d.ts
+components.d.ts
